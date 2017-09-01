@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*
+* @Author: 王zhichao
+* @Date:   2017-08-30 14:11:07
+* @Last Modified by:   王zhichao
+* @Last Modified time: 2017-08-30 14:18:37
+*/
+body {
+	width: 100px;
+	height: 200px; }
+	body p {
+		height: 20px;
+		width: 20px; }
+		body p a {
+			color: red;
+			font-size: 20px; }
+
+			/*# sourceMappingURL=a.css.map */

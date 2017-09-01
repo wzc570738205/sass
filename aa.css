@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url(//misc.360buyimg.com/mtd/pc/index/gb/images/iconfont.eot);
+    src: url(//misc.360buyimg.com/mtd/pc/index/gb/images/iconfont.eot#iefix) format('embedded-opentype'), url(//misc.360buyimg.com/mtd/pc/index/gb/images/iconfont.woff) format('woff'), url(//misc.360buyimg.com/mtd/pc/index/gb/images/iconfont.ttf) format('truetype'), url(//misc.360buyimg.com/mtd/pc/index/gb/images/iconfont.svg#iconfont) format('svg')
+}
+
+.iconfont {
+    font-family: iconfont;
+    font-style: normal;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.mod_price {
+    font-size: 14px;
+    color: #f10214
+}
+
+.mod_price i {
+    margin-right: 3px;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 12px
+}
+
+.o2_wide {
+    min-width: 1190px
+}
+
+.o2_mini {
+    min-width: 990px
+}
+
+.grid_c1 {
+    margin: 0 auto;
+    width: 1190px
+}
+
+.o2_mini .grid_c1 {
+    width: 990px
+}
+
+.mod_ver {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 0
+}
+
+.mod_lazyload {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index/gb/images/lazyload.gif)
+}
+
+.loading,
+.mod_lazyload,
+.mod_loading {
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+}
+
+.loading,
+.mod_loading {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index/gb/images/loading.gif)
+}
+
+@media only screen and (-o-min-device-pixel-ratio:3/2),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min--moz-device-pixel-ratio:1.5),
+only screen and (min-device-pixel-ratio:1.5) {
+    .mod_lazyload {
+        background-image: url(//misc.360buyimg.com/mtd/pc/index/gb/images/lazyload@2x.gif);
+        background-size: 100px 90px
+    }
+    .loading,
+    .mod_loading {
+        background-image: url(//misc.360buyimg.com/mtd/pc/index/gb/images/loading@2x.gif);
+        background-size: 25px 25px
+    }
+}
+
+@font-face {
+    font-family: fzzhengheis-el-gbregular;
+    src: url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh-webfont.eot);
+    src: url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh-webfont.eot?#iefix) format("embedded-opentype"), url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh-webfont.woff) format("woff"), url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh-webfont.ttf) format("truetype"), url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh-webfont.svg#fzzhengheis-el-gbregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.box_hd {
+    position: relative;
+    padding: 0 20px 0 30px;
+    height: 55px;
+    line-height: 55px;
+    color: #fff
+}
+
+.box_hd_col1 {
+    float: left
+}
+
+.box_hd_col2 {
+    float: right
+}
+
+.box_hd_dec {
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    width: 28px;
+    height: 28px
+}
+
+.box_hd_arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 19px solid #f6f6f6;
+    border-right: 19px solid transparent
+}
+
+.box_hd_icon,
+.box_promo,
+.box_tit {
+    float: left
+}
+
+.box_tit {
+    font-family: fzzhengheis-el-gbregular;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 40px;
+    padding-top: 9px
+}
+
+.box_subtit {
+    *cursor: pointer;
+    position: relative;
+    float: right;
+    margin-top: 19px;
+    padding-right: 20px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff
+}
+
+.box_subtit:hover {
+    color: #fff
+}
+
+.box_subtit_arrow {
+    position: absolute;
+    right: 0;
+    top: 4px
+}
+
+.box_promo {
+    margin-left: 12px;
+    margin-right: 26px;
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 49px
+}
+
+.box_bd {
+    background-color: #fff
+}
+
+.box_subtit_arrow,
+.coupon_entry_btn_ico {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index/home/images/sprite_index@1x.png);
+    background-position: -154px -40px;
+    background-size: 218px 188px;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 16px
+}
+
+.errtips {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index/home/images/errtips@1x.png);
+    background-position: 50%;
+    background-repeat: no-repeat
+}
+
+@media only screen and (-o-min-device-pixel-ratio:3/2),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min--moz-device-pixel-ratio:1.5),
+only screen and (min-device-pixel-ratio:1.5) {
+    .box_subtit_arrow,
+    .coupon_entry_btn_ico {
+        background-image: url(//misc.360buyimg.com/mtd/pc/index/home/images/sprite_index@2x.png);
+        background-position: -76px -130px;
+        background-size: 170px 158px;
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 16px
+    }
+    .errtips {
+        background-image: url(//misc.360buyimg.com/mtd/pc/index/home/images/errtips@2x.png);
+        background-size: 50% 50%
+    }
+}
+
+.ftit_inner {
+    overflow: hidden;
+    padding: 0 0 20px;
+    height: 35px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAADCAMAAAB/P3U+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkJEODlEQkUxNzk2NjExRTY5OTdDQkQ2NDRFQjFCNUU1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkJEODlEQkUyNzk2NjExRTY5OTdDQkQ2NDRFQjFCNUU1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkQ4OURCREY3OTY2MTFFNjk5N0NCRDY0NEVCMUI1RTUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkQ4OURCRTA3OTY2MTFFNjk5N0NCRDY0NEVCMUI1RTUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7GI6sZAAAAD1BMVEXa2trExMTBwcHDw8P///8QPEuGAAAABXRSTlP/////APu2DlMAAAAZSURBVHjaYmBgZGCBAwZmJkYkHoocQIABAAogAIEAYnZPAAAAAElFTkSuQmCC") repeat-x 0 18px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px
+}
+
+.ftit_inner h3 {
+    display: inline;
+    padding: 0 50px;
+    background-color: #f6f6f6;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333;
+    font-family: fzzhengheis-el-gbregular
+}
